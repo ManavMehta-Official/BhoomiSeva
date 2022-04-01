@@ -49,7 +49,7 @@ export default function footer() {
             </div>
 
             <div className='mx-auto text-center' style={{"marginTop": "5%"}}>
-                <p className='cred'>Website developed by <a href="#!" className='dev-link'>Manav Mehta</a> and <a href="#!" className='dev-link'>Shubhashri. C.G</a></p>
+                <p className='cred'>Website developed by <a href="https://github.com/ManavMehta-Official" target="_blank" className='dev-link'>Manav Mehta</a> and <a href="https://github.com/shubhashricg" target="_blank" className='dev-link'>Shubhashri. C.G</a></p>
             </div>
     </div>
   )

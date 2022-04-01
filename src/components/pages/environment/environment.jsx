@@ -39,7 +39,7 @@ export default function environment() {
 
 
         <div className="col-sm-8">
-          <h1 className='page-title' style={{"fontSize": "3.6rem"}}>Environment  </h1> 
+          <h1 className='page-title text-media-env' style={{"fontSize": "3.6rem"}}>Environment  </h1> 
           <img src={divider} className='img-fluid page-title-hr' alt='flower stick' />
 
           <h1 class="text-content project-section-text" style={{"font-size": "1.4rem", "text-align": "justify", "padding": "2% 4%", "marginTop": "5%"}}>
@@ -55,7 +55,7 @@ export default function environment() {
           </h1>
 
             <div style={{'padding': "2% 4%"}}>
-              <h3 class="project-section-title" style={{"font-size": "2rem !important", "color": "black !important", "margin-top": "5%"}}>1.1  Farmer’s Training in Natural Farming and Agroforestry</h3>
+              <h3 class="project-section-title" style={{"font-size": "2rem !important", "color": "black !important", "margin-top": "5%"}}>Farmer’s Training in Natural Farming and Agroforestry</h3>
 
                 <h1 class="text-content project-section-text" style={{"padding": "2% 4%", "text-align": "justify", "font-size": "1.4rem", "margin-top": "4%"}}>
                   <ul><li> Build awareness among farmers about the benefits of organic farming and Agroforestry, on how use of chemical fertilizers reduces yield over a period of time, and that natural farming practise for more than a couple of years can increase yield more than what they get from usage of chemical fertilizers.</li></ul><br />
@@ -70,7 +70,7 @@ export default function environment() {
 
 
 
-                <h3 class="project-section-title" style={{"font-size": "2rem !important", "color": "black !important", "margin-top": "5%"}}>1.2 Desi Cow Donation</h3>
+                <h3 class="project-section-title" style={{"font-size": "2rem !important", "color": "black !important", "margin-top": "5%"}}>Desi Cow Donation</h3>
 
                 <h1 class="text-content" style={{"padding": "2% 4%", "text-align": "justify", "font-size": "1.4rem", "margin-top": "4%"}}>
                     <p className='project-section-text'>

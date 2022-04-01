@@ -98,7 +98,6 @@ body.modal-open {
   border: none;
   border-radius: 100rem;
   font-family: var(--font-mono);
-  text-transform: uppercase;
 }
 
 .rounded-whiteBtn{
@@ -106,7 +105,6 @@ body.modal-open {
   color: var(--orange);
   font-family: var(--font-mono);
   padding: 1.7% 5%;
-  text-transform: uppercase;
   font-size: 18px;
   letter-spacing: 2px;
   border: none;
@@ -207,8 +205,8 @@ body.modal-open {
 }
 
 .project-section-title{
-  font-family: var(--font-noto);
-  font-size: 2.4rem;
+  font-family: var(--font-mono);
+  font-size: 2.2rem;
 }
 
 .navbar-toggler:focus,

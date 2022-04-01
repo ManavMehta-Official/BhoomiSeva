@@ -108,7 +108,7 @@ export default function UnstyledTabsBasic() {
                     </div>
                     <div className="col-sm-6 my-auto">
                         <h1>
-                        Pay to lkarle@fbl using this QR code
+                        Pay to 9900103178@ybl using this QR code
                         </h1>
                     </div>
                 </div>

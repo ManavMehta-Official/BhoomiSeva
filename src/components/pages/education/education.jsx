@@ -42,7 +42,7 @@ export default function education() {
           <img src={divider} className='img-fluid page-title-hr' alt='flower stick' />
 
             <div style={{'padding': "2% 4%"}}>
-              <h3 class="project-section-title" style={{"font-size": "2rem !important", "color": "black !important", "margin-top": "5%"}}>1.1 Scholarships for the Merit Rural Students</h3>
+              <h3 class="project-section-title" style={{"font-size": "2rem !important", "color": "black !important", "margin-top": "5%"}}>Scholarships for the Merit Rural Students</h3>
 
                 <h1 class="text-content project-section-text" style={{"padding": "2% 4%", "text-align": "justify", "font-size": "1.4rem", "margin-top": "4%"}}>
                 Few students have been identified by Bhoomi Seva for scholarships. They will be facilitated with the scholarship every year until they complete their education.
@@ -64,18 +64,32 @@ export default function education() {
 
 
 
-                <h3 class="project-section-title" style={{"font-size": "2rem !important", "color": "black !important", "margin-top": "5%"}}>1.2 Free Online coaching for 10th grade Students</h3>
+                <h3 class="project-section-title" style={{"font-size": "2rem !important", "color": "black !important", "margin-top": "5%"}}>Free Online coaching for 10th grade Students</h3>
 
                 <h1 class="text-content" style={{"padding": "2% 4%", "text-align": "justify", "font-size": "1.4rem", "margin-top": "4%"}}>
                     <p className='project-section-text'>
                     This year we started online coaching for one rural girl student which we will be continuing going forward.
                     </p>
 
+                    <div style={{"padding": "2% 5%", "margin-top": "5%"}}>
+                      <div class="card testimonial" style={{"margin-bottom": "4%"}}>
+                              <div class="card-body">
+                                <h5 class="card-title">Sanjana</h5>
+                                <h6 class="card-subtitle mb-2 text-muted">Student</h6>
+                                <p class="card-text" style={{"font-weight": "400", "lineHeight": "25px"}}>
+                                I am Sanjana K.S of grade 10 studying in Blossom school.
+                                I am very thankful that the Bhoomi Seva charity organization has helped me by paying my school fees for this academic year(2021-2022) and providing scholarships for 3 years. Also, the organization helped me by giving online tuition for Chemistry. I am very thankful to both Lakshmi mam and tuition mam. I will do my best in my studies.
+
+                                </p>
+                              </div>
+                      </div>
+                    </div>
+
 
 
                 </h1>
 
-                <h3 class="project-section-title" style={{"font-size": "2rem !important", "color": "black !important", "margin-top": "5%"}}>1.3 Free Online coaching for entrance exam tests for Jawahar Navodaya Vidyalaya admission for 6th grade</h3>
+                <h3 class="project-section-title" style={{"font-size": "2rem !important", "color": "black !important", "margin-top": "5%"}}>Free Online coaching for entrance exam tests for Jawahar Navodaya Vidyalaya admission for 6th grade</h3>
 
                 <h1 class="text-content" style={{"padding": "2% 4%", "text-align": "justify", "font-size": "1.4rem", "margin-top": "4%"}}>
                     <p className='project-section-text'>
@@ -86,7 +100,7 @@ export default function education() {
 
                 </h1>
 
-                <h3 class="project-section-title" style={{"font-size": "2rem !important", "color": "black !important", "margin-top": "5%"}}>1.4 External Scholarship opportunities guidance for rural merit students</h3>
+                <h3 class="project-section-title" style={{"font-size": "2rem !important", "color": "black !important", "margin-top": "5%"}}>External Scholarship opportunities guidance for rural merit students</h3>
 
                 <h1 class="text-content" style={{"padding": "2% 4%", "text-align": "justify", "font-size": "1.4rem", "margin-top": "4%"}}>
                     <p className='project-section-text'>
@@ -100,7 +114,7 @@ export default function education() {
                                 <h5 class="card-title">{testimonialName1_4_a}</h5>
                                 <h6 class="card-subtitle mb-2 text-muted">{testimonialProfession1_4_a}</h6>
                                 <p class="card-text" style={{"font-weight": "400", "lineHeight": "25px"}}>
-                                  {testimonial1_4_a}
+                                I am Shree Raksha R studying 2nd year Computer Science, engineering at BNMIT. Lakshmi ma'am,I would like to thank you for your contribution of rupees 25,000 per year through Rotary Club.Your financial support is helping me to continue my studies. The generous support of individuals like you is helping students like me to build our career. Thank you again for your support!!!
                                 </p>
                               </div>
                       </div>

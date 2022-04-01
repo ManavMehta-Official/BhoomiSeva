@@ -41,9 +41,9 @@ export default function navbar() {
           <a class="nav-link" href="/bhoomiseva/#/about">ABOUT US</a>
         </li>
       </ul>
-        <a href="https://www.facebook.com/bhoomiseve" rel="noreferrer" target="_blank" className='social-link'><FontAwesomeIcon icon={faFacebook} size="lg" /></a>
-        <a href="#!" className='social-link'><FontAwesomeIcon icon={faInstagram} size="lg" /></a>
-        <a href="#!" className='social-link'><FontAwesomeIcon icon={faTwitter}  size="lg" /></a>
+        <a href="https://www.facebook.com/bhoomiseve" rel="noreferrer" target="_blank" className='social-link' style={{"textDecoration": "none"}}><FontAwesomeIcon icon={faFacebook} size="lg" /> Facebook</a>
+        {/* <a href="#!" className='social-link'><FontAwesomeIcon icon={faInstagram} size="lg" /></a> */}
+        {/* <a href="#!" className='social-link'><FontAwesomeIcon icon={faTwitter}  size="lg" /></a> */}
     </div>
   </div>
 </nav>

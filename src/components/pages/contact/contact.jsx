@@ -18,9 +18,9 @@ import {FaPaperPlane} from 'react-icons/fa';
 import SectionSupport from '../../sectionSupport/sectionSupport';
 
 
-const SERVICE_ID = "service_cxy9dhq";
-const TEMPLATE_ID = "template_jv8noca";
-const USER_ID = "***";
+const SERVICE_ID = "service_99pupjs";
+const TEMPLATE_ID = "template_mw903f9";
+const USER_ID = "CMYOSEO-Xp771gz4S";
 
 export default function contact() {
 
@@ -109,7 +109,7 @@ export default function contact() {
               />
             </div>
             <div className='mx-auto text-center'> 
-              <Button variant="contained" size="medium" className="submitBtn" disableElevation>
+              <Button variant="contained" size="medium" className="submitBtn" type='submit' disableElevation>
                  <FaPaperPlane /> &nbsp;Send
               </Button>
             </div>

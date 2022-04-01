@@ -227,6 +227,10 @@
         margin-top: 18%;
     }
 
+    .text-banner-media{
+        font-size: 2.7rem !important;
+    }
+
     .banner-img{
         background-size: 160% 100% !important;
     }

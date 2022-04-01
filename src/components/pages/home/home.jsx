@@ -39,10 +39,10 @@ export default function home() {
               </h1>
               <div className="home-banner-btnHolder" style={{"margin-left": "2%", "margin-top": "2%"}}>
                 <button className="rounded-orangeBtn" onClick={event =>  window.location.href='/bhoomiseva/#/donate'}>
-                  DONATE
+                  Donate
                 </button>
                 <button className="rounded-whiteBtn" style={{"margin-left": "2%"}} onClick={event =>  window.location.href='/bhoomiseva/#/contact'}>
-                  CONTACT
+                  Contact
                 </button>
               </div>
             </div>
@@ -192,26 +192,8 @@ export default function home() {
             </div>
         </div>
 
-        <section>
-        <h1 className='section-title fancy-title mx-auto text-center' style={{"color": "#5e522b", "marginTop": "5%"}}><img src={divider} className="img-fluid" alt="flower stick" /> Support Our Work <img src={divider} className="img-fluid" alt="flower stick" /></h1>
-          <div className="row orphanage-section" style={{"padding": "6% 2%"}}>
-            <div className="col-sm-6 mt-auto" style={{"padding": "2% 2%"}}>
-              <h1 className="define" style={{"fontSize": "3rem"}}>Support Sri Krishnashraya orphanage</h1>
-              <p className="subtext">
-              Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
-              </p>
-
-              <br />
-              <Button variant="outlined" className='learn-more-outline' size="large" onClick={event =>  window.location.href='/bhoomiseva/#/orphanage-support'}>Learn more</Button>
-            </div>
-            <div className="col-sm-6 mx-auto" style={{"textAlign": "center"}}>
-                <img src={orph} alt="orphan children" style={{"boxShadow": "var(--hover)", "width": "70%"}} className='img-fluid orphanage-section-img' />
-            </div>
-          </div>
-        </section>
-
         <section className='nice col-sm-12 my-auto text-center'>
-          <h1 className='define my-auto text-center' style={{"fontSize": "3.5rem", "font-weight": "700"}}>Save Our Environment.</h1> <br />
+          <h1 className='define my-auto text-center text-banner-media' style={{"fontSize": "3.5rem", "font-weight": "700"}}>Save Our Environment.</h1> <br />
           <Button variant="contained" className='explore-more' size="large" onClick={event =>  window.location.href='/bhoomiseva/#/environment'} disableElevation>Explore more</Button>
         </section>
 
@@ -244,8 +226,6 @@ export default function home() {
 
         </div>
 
-      <SectionSupport />
-
       <div class="modal fade" id="event1Modal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
         <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable modal-lg">
           <div class="modal-content">
@@ -254,7 +234,7 @@ export default function home() {
               <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body">
-            Farmers’ training in agroforestry and natural farming is organized on 16th and 17th of April in Chirantana School, Kabbalu, Kanakapura to spread awareness among farmers. <br /> <br />
+            Farmers’ training in agroforestry and natural farming is organized on May 2022 in Chirantana School, Kabbalu, Kanakapura to spread awareness among farmers. <br /> <br />
             <ul><li>Publicize about training program among farmers in and around Kanakapura.<br /></li></ul>
             <ul><li>Lunch and tea organized for farmers on the training days.<br /></li></ul>
             <ul><li>Registration of farmers who want to switch to agroforestry and/or natural farming.<br /></li></ul>

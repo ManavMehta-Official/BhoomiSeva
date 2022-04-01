@@ -55,6 +55,20 @@ export default function orphanage() {
 
                 </p>
 
+                <div style={{"padding": "2% 5%", "margin-top": "5%"}}>
+                      <div class="card testimonial" style={{"margin-bottom": "4%"}}>
+                              <div class="card-body">
+                                <h4 class="card-0">Sri Krishnashraya Educational Trust</h4>
+                                <h5 class="card-title">Pushparaj</h5>
+                                <h6 class="card-subtitle mb-2 text-muted">Founder and Managing Trustee</h6>
+                                <p class="card-text" style={{"font-weight": "400", "lineHeight": "25px"}}>
+                                We would like to say our most sincere thanks to the Bhoomi Seva organization.  Because they have been supporting Krishnashraya home kids and helping their basic needs like food, education, cloth, medical and other emergency requirements of the kids. 
+                                Once again we would like to thank Lakshmi Madam and all other supporters from the Bhoomi Seva organization for helping and supporting us. 
+                                </p>
+                              </div>
+                      </div>
+                    </div>
+
                 <div style={{"padding": "2% 8%"}}>
                 </div>
                 
