@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/bhoomiseva/static/css/main.f8cc0621.css",
-    "main.js": "/bhoomiseva/static/js/main.d942c970.js",
+    "main.js": "/bhoomiseva/static/js/main.28e919d2.js",
     "static/js/787.da29499f.chunk.js": "/bhoomiseva/static/js/787.da29499f.chunk.js",
     "static/media/extendBG.png": "/bhoomiseva/static/media/extendBG.aad78b4d94215cf0d1fa.png",
     "static/media/orphanage.jpeg": "/bhoomiseva/static/media/orphanage.fbf42b768527af8300cf.jpeg",
@@ -16,6 +16,7 @@
     "static/media/farmerTraining.jpeg": "/bhoomiseva/static/media/farmerTraining.2559278361fe3651cd13.jpeg",
     "static/media/farmer.jpeg": "/bhoomiseva/static/media/farmer.61ccdb37bb2a42e9ff52.jpeg",
     "static/media/banner.jpeg": "/bhoomiseva/static/media/banner.740769e89f7fd1f20e09.jpeg",
+    "static/media/event.jpg": "/bhoomiseva/static/media/event.a36754991ca6b8398384.jpg",
     "static/media/cowdonation1.jpeg": "/bhoomiseva/static/media/cowdonation1.5c3c037a54befc6865e6.jpeg",
     "static/media/galleryCow1.jpeg": "/bhoomiseva/static/media/galleryCow1.b10c74b005e456a0271d.jpeg",
     "static/media/orphanageBG.jpeg": "/bhoomiseva/static/media/orphanageBG.90e78a68dfb4e0bd33d3.jpeg",
@@ -43,11 +44,11 @@
     "static/media/divider.svg": "/bhoomiseva/static/media/divider.d5a1ad32e1d0480363aa65bc5e32ad84.svg",
     "index.html": "/bhoomiseva/index.html",
     "main.f8cc0621.css.map": "/bhoomiseva/static/css/main.f8cc0621.css.map",
-    "main.d942c970.js.map": "/bhoomiseva/static/js/main.d942c970.js.map",
+    "main.28e919d2.js.map": "/bhoomiseva/static/js/main.28e919d2.js.map",
     "787.da29499f.chunk.js.map": "/bhoomiseva/static/js/787.da29499f.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.f8cc0621.css",
-    "static/js/main.d942c970.js"
+    "static/js/main.28e919d2.js"
   ]
 }
