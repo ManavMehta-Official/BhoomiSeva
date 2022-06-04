@@ -10,7 +10,7 @@ export default function footer() {
   return (
     <div className='footer'>
         <div className="text-center">
-            <h1><IoIosFlower style={{"color": "#6b6248", "marginTop": "-8%"}} /></h1>
+            {/* <h1><IoIosFlower style={{"color": "#6b6248", "marginTop": "-8%"}} /></h1> */}
         </div>
         <div class="row">
                 <div class="col-sm-4">

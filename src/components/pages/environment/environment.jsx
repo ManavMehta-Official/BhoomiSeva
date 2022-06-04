@@ -51,7 +51,7 @@ export default function environment() {
 
                             The occupation of farming is the most noble occupation in the world. We get food on our table everyday, because some farmers have grown these crops in their fields. We should not take it lightly. Such farmers in my opinion should lead a good life. But, it is not so. Today, farmers are in distress and many have committed suicide not able to sustain livelihood.<br /><br />
 
-                            Bhoomi Seva intends to improve the livelihood of farmers by helping them switch to agroforestry and organic farming which has proven to be more lucrative. In an attempt to encourage farmers to switch to agroforestry or natural farming, Bhoomi Seva provides training to the farmers, and also donates cows to the marginal farmers.<br />
+                            Bhoomi Seva intends to improve the livelihood of farmers by helping them switch to agroforestry and organic farming which has proven to be more lucrative. In an attempt to encourage farmers to switch to agroforestry or natural farming, Bhoomi Seva provides training to the farmers, and also donates desi cows to the marginal farmers which are required to practice natural farming.<br />
           </h1>
 
             <div style={{'padding': "2% 4%"}}>
@@ -96,8 +96,8 @@ export default function environment() {
 
                 </h1>
 
-                <img src={cowDonation1Image} alt="cow donation" className='img-fluid phone-img mimg' style={{"width": "40%", "margin-left": "5%", "margin-right": "5%", "margin-bottom": "5%"}} />
-                <img src={cowDonation2Image} alt="cow donation" className='img-fluid phone-img mimg' style={{"width": "40%", "margin-left": "5%", "margin-right": "5%", "margin-bottom": "5%"}} />
+                {/* <img src={cowDonation1Image} alt="cow donation" className='img-fluid phone-img mimg' style={{"width": "40%", "margin-left": "5%", "margin-right": "5%", "margin-bottom": "5%"}} />
+                <img src={cowDonation2Image} alt="cow donation" className='img-fluid phone-img mimg' style={{"width": "40%", "margin-left": "5%", "margin-right": "5%", "margin-bottom": "5%"}} /> */}
 
             </div>
         </div>

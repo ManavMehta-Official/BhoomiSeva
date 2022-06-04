@@ -28,11 +28,11 @@ export default function donate() {
         <h1 className='page-title text-center' style={{"fontSize": "4rem"}}><img src={divider} class="img-fluid" alt='flower stick' /> Donate <img src={divider} class="img-fluid" alt='flower stick' /></h1>
           <div className='text-center col-sm-8 mx-auto donate-content' style={{"marginTop": "4%", "fontFamily": "var(--font-mono)", "color": "var(--wood)"}}>
             <p style={{"font-size": "1.4rem"}}>
-                If you want a donation to be used for a specific purpose, Kindly add (CowDonation / Education / FarmersSupport / OrphanageMeal / Any) in the comment while transferring the amount.
+            If you want your donation to be used for a specific purpose, kindly add (CowDonation / Education / FarmersSupport / OrphanageMeal / Any) in the comment while transferring the amount.
                 </p>
                 <br />
                 <p style={{"font-size": "1.4rem"}}>
-                You can get confirmation of transferred amount by sending whatsApp message to Bhoomi Seva({phone}) or send mail to {email}
+              You can get confirmation of your transferred amount by sending whatsApp message to Bhoomi Seva(+919900103178) or by sending mail to bhoomiseva.org@gmail.com
               </p>
           </div>
                 

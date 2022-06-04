@@ -13,9 +13,11 @@ import {FaCanadianMapleLeaf} from 'react-icons/fa';
 import orph from '../../../images/orphanage/orph2.jpeg';
 import leafHold from '../../../images/leafHold.jpeg';
 import divider from '../../../images/divider.svg';
-import { event_1_description, event_1_title, event_1_location, event_1_image } from '../../../eventManager';
+import { event_1_description, event_1_title, event_1_location, event_1_image, event_2_description, event_2_title, event_2_location, event_2_image } from '../../../eventManager';
 import SectionSupport from '../../sectionSupport/sectionSupport';
 import { email } from '../../../App';
+import scholarship from '../../../images/education/edu-1.jpeg';
+import event from '../../../images/event.jpg';
 
 export default function home() {
   return (
@@ -57,8 +59,8 @@ export default function home() {
         </div>
 
         <section className='mx-auto text-center' style={{"padding": "5%"}}>
-          <GiTwirlyFlower class="symbol" />
-          <h1 class="define" style={{"marginTop": "2%", "color": "#968b6a"}}>
+        <img src={logo} alt="bhoomi seva logo" className='img-fluid ms-auto removePC' style={{"width": "100%", "marginTop": "3%", "marginRight": "10%"}} />
+          <h1 class="define" style={{"marginTop": "0%", "color": "#968b6a"}}>
             Let's give a better <br />Earth to our children!
           </h1>
 
@@ -106,7 +108,7 @@ export default function home() {
                           <h5 class="card-title"><FontAwesomeIcon icon={faHouseChimneyUser} size="lg" style={{"color": "rgb(202, 75, 36)"}} /> Orphanage Support</h5>
                           <p class="card-text">
                            <ul><li>Sponsor a meal for the orphanage kids for around Rs 6000<br /></li></ul>
-                            <ul><li>School/College fees support for the kids at times<br /></li></ul>
+                            <ul><li>School/College fees support for the kids <br /></li></ul>
                             <ul><li>Donation of laptops so that the kids can take online classes<br /></li></ul>
                             <ul><li>Donation of bicycles <br /></li></ul>
                             <ul><li>Donation of Used clothes, foot wear, stationary items, furniture etc.<br /></li></ul>
@@ -130,7 +132,7 @@ export default function home() {
               
                 <div class="col-sm-4">
                   <div class="card">
-                    <img src={recentEvent_1_image} class="card-img-top"  alt="cow donation" />
+                    <img src={event} class="card-img-top"  alt="cow donation" />
                     <div class="card-body">
                       
                       <div>
@@ -192,10 +194,6 @@ export default function home() {
             </div>
         </div>
 
-        <section className='nice col-sm-12 my-auto text-center'>
-          <h1 className='define my-auto text-center text-banner-media' style={{"fontSize": "3.5rem", "font-weight": "700"}}>Save Our Environment.</h1> <br />
-          <Button variant="contained" className='explore-more' size="large" onClick={event =>  window.location.href='/bhoomiseva/#/environment'} disableElevation>Explore more</Button>
-        </section>
 
         <div className="events-ongoing" style={{"marginTop": "5%"}}>
         <h1 class="fancy-title mobile-title mx-auto text-center" style={{"color": "#968b6a"}}>Initiatives Ongoing</h1>
@@ -203,16 +201,24 @@ export default function home() {
 
             <div class="row" style={{"padding": "2% 5%"}}>
                 <div class='col-sm-4'>
-                
-                </div>
-
-                <div class='col-sm-4'>
-                    <div class="card">
+                  <div class="card">
                         <img src={event_1_image} class="card-img-top" alt="farmers training" />
                         <div class="card-body">
                           <h5 class="card-title">{event_1_title}</h5>
                           <h5 class='location'><FontAwesomeIcon icon={faMapMarkerAlt} /> {event_1_location}</h5>
                           <p class="card-text" style={{"textAlign": "left"}}>{event_1_description}</p>
+                          {/* <a href="/event-1" class="link" data-bs-toggle="modal" data-bs-target="#event1Modal">Learn more<IoIosArrowRoundForward style={{"fontSize": "1.4rem"}} /></a> */}
+                        </div>
+                    </div>
+                </div>
+
+                <div class='col-sm-4'>
+                    <div class="card">
+                        <img src={event_2_image} class="card-img-top" alt="farmers training" />
+                        <div class="card-body">
+                          <h5 class="card-title">{event_2_title}</h5>
+                          <h5 class='location'><FontAwesomeIcon icon={faMapMarkerAlt} /> {event_2_location}</h5>
+                          <p class="card-text" style={{"textAlign": "left"}}>{event_2_description}</p>
                           <a href="/event-1" class="link" data-bs-toggle="modal" data-bs-target="#event1Modal">Learn more<IoIosArrowRoundForward style={{"fontSize": "1.4rem"}} /></a>
                         </div>
                     </div>
@@ -220,7 +226,14 @@ export default function home() {
                 </div>
 
                 <div class='col-sm-4'>
-
+                  <div class="card">
+                        <img src={scholarship} class="card-img-top" alt="farmers training" />
+                        <div class="card-body">
+                          <h5 class="card-title">Scholarship/School fee payment for Bhoomi Seva students</h5>
+                          <p class="card-text" style={{"textAlign": "left"}}>Bhoomi Seva has identified about 8 deserving merit students to whom it provides scholarship every year and also provides guidance with their studies.</p>
+                          {/* <a href="/event-1" class="link" data-bs-toggle="modal" data-bs-target="#event1Modal">Learn more<IoIosArrowRoundForward style={{"fontSize": "1.4rem"}} /></a> */}
+                        </div>
+                    </div>
                 </div>
             </div>
 
@@ -234,7 +247,7 @@ export default function home() {
               <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body">
-            Farmers’ training in agroforestry and natural farming is organized on May 2022 in Chirantana School, Kabbalu, Kanakapura to spread awareness among farmers. <br /> <br />
+            Farmers’ training in natural / organic farming is organized on July 2022 in Chirantana School, Kabbalu, Kanakapura to spread awareness among farmers. <br /> <br />
             <ul><li>Publicize about training program among farmers in and around Kanakapura.<br /></li></ul>
             <ul><li>Lunch and tea organized for farmers on the training days.<br /></li></ul>
             <ul><li>Registration of farmers who want to switch to agroforestry and/or natural farming.<br /></li></ul>

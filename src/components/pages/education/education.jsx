@@ -7,6 +7,7 @@ import {GiSpotedFlower} from 'react-icons/gi';
 import { testimonialName1_1, testimonialImage1_1, testimonialProfession1_1, testimonial1_1, edugalleryImg1, edugalleryImg2, testimonial1_4_a, testimonialImage1_4_a, testimonialName1_4_a, testimonialProfession1_4_a, testimonial1_4_b, testimonialProfession1_4_b, testimonialName1_4_b, testimonialImage1_4_b } from '../../../educationManager';
 import divider from '../../../images/divider.svg';
 import SectionSupport from '../../sectionSupport/sectionSupport';
+import sanjana from '../../../images/education/sanjana.jpeg'
 
 export default function education() {
   return (
@@ -74,6 +75,7 @@ export default function education() {
                     <div style={{"padding": "2% 5%", "margin-top": "5%"}}>
                       <div class="card testimonial" style={{"margin-bottom": "4%"}}>
                               <div class="card-body">
+                              <img src={sanjana} alt="logo" width="50" height="50" class="d-inline-block align-text-top" style={{"border-radius": "100rem"}} />
                                 <h5 class="card-title">Sanjana</h5>
                                 <h6 class="card-subtitle mb-2 text-muted">Student</h6>
                                 <p class="card-text" style={{"font-weight": "400", "lineHeight": "25px"}}>

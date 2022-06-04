@@ -22,7 +22,7 @@ export default function orphanage() {
 
 
         <div className="orphanage-bg">
-                <div style={{"background": "rgba(0, 0, 0, 0.2)", "height": "75vh"}}>
+                <div style={{"background": "rgba(0, 0, 0, 0.4)", "height": "75vh"}}>
                 <Navbar />
 
                 <h1 className='banner-section-title' style={{"marginTop": "13%"}}>

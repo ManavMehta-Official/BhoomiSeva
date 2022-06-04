@@ -1,6 +1,6 @@
 import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faWhatsapp, faFacebook } from '@fortawesome/free-brands-svg-icons';
+import { faWhatsapp, faFacebook, faInstagram } from '@fortawesome/free-brands-svg-icons';
 import { faEnvelope, faPhone } from '@fortawesome/free-solid-svg-icons';
 import { email } from '../../App'
 import { phone } from '../../App';
@@ -24,6 +24,11 @@ export default function support() {
           <br />
         <Button variant="contained" size="large" className="facebookBtn" onClick={event =>  window.location.href='https://www.facebook.com/bhoomiseve'} target="_blank" disableElevation>
           <FontAwesomeIcon icon={faFacebook} size="lg" /> &nbsp; Bhoomi Seva Facebook
+        </Button>
+        <br />
+          <br />
+        <Button variant="contained" size="large" className="instaBtn" onClick={event =>  window.location.href='https://www.instagram.com/bhoomiseva/?igshid=YmMyMTA2M2Y='} target="_blank" disableElevation>
+          <FontAwesomeIcon icon={faInstagram} size="lg" /> &nbsp; Bhoomi Seva Instagram
         </Button>
         </div>
 

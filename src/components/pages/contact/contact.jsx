@@ -3,7 +3,7 @@ import { Helmet } from 'react-helmet';
 import Navbar from '../../navbar/navbar';
 import './contact.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faWhatsapp, faFacebook } from '@fortawesome/free-brands-svg-icons';
+import { faWhatsapp, faFacebook, faInstagram } from '@fortawesome/free-brands-svg-icons';
 import { faEnvelope, faPhone } from '@fortawesome/free-solid-svg-icons';
 import { email } from '../../../App'
 import { phone } from '../../../App';
@@ -18,9 +18,9 @@ import {FaPaperPlane} from 'react-icons/fa';
 import SectionSupport from '../../sectionSupport/sectionSupport';
 
 
-const SERVICE_ID = "service_99pupjs";
-const TEMPLATE_ID = "template_mw903f9";
-const USER_ID = "CMYOSEO-Xp771gz4S";
+const SERVICE_ID = "service_od8g8dn";
+const TEMPLATE_ID = "template_vxmd318";
+const USER_ID = "tULqTthsWNbCZT2V0";
 
 export default function contact() {
 
@@ -129,6 +129,11 @@ export default function contact() {
                     <br />
                   <Button variant="contained" size="large" className="facebookBtn" onClick={event =>  window.location.href='https://www.facebook.com/bhoomiseve'} disableElevation>
                     <FontAwesomeIcon icon={faFacebook} size="lg" /> &nbsp; Bhoomi Seva Facebook
+                  </Button>
+                    <br />
+                    <br />
+                  <Button variant="contained" size="large" className="instaBtn" onClick={event =>  window.location.href='https://www.instagram.com/bhoomiseva/?igshid=YmMyMTA2M2Y='} disableElevation>
+                    <FontAwesomeIcon icon={faInstagram} size="lg" /> &nbsp; Bhoomi Seva Instagram
                   </Button>
                   </div>
 

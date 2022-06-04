@@ -35,6 +35,9 @@
         font-size: 3rem;
         margin-top: 35%
     }
+    .text-media-env{
+        font-size: 2.4rem !important;
+    }
     .env-bg{
         background-image: url(../../../images/environment/envBg.jpeg);
         background-size: 210% 100%;

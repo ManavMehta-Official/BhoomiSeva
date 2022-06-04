@@ -40,12 +40,12 @@ export default function getInvolved() {
         <div className="col-sm-7 form-bg" style={{"backgroundColor": "var(--lighter-bg)", "border-radius": "1rem", "padding": "4% 2%"}}>
             <h1 style={{"fontFamily": "var(--font-noto)", "color": "var(--wood)"}}>Subscribe to Bhoomi Seva</h1> <br />
             <p class="text-center" style={{"marginBottom": "2%", "fontFamily": "var(--font-mono)", "font-size": "1.2rem", "color": "var(--wood)", "marginTop": "2%"}}>Join our whatsapp group.</p>
-            <div className="mx-auto text-center" style={{"marginBottom": "8%"}}>
+            <div className="mx-auto text-center" style={{"marginBottom": "0%"}}>
                 <Button variant="contained" size="large" className="whatsappBtn" onClick={event =>  window.location.href='https://chat.whatsapp.com/JvzZ6pc6Gzz5Vo00B3qlRF'} target="_blank" disableElevation>
                 <FontAwesomeIcon icon={faWhatsapp} size="lg" /> &nbsp; Bhoomi Seva Whatsapp
                 </Button>
             </div>
-            <hr class="mx-auto" style={{"width": "90%", "marginBottom": "8%"}} />
+            {/* <hr class="mx-auto" style={{"width": "90%", "marginBottom": "8%"}} />
         <form style={{"padding": "1% 7%"}}>
             <div class="input-group mb-3">
                 <span class="input-group-text" style={{"background-color":"var(--red-alphaBtn)"}} id="basic-addon1"> <FontAwesomeIcon icon={faPhone} style={{"color": "white"}} />  </span>
@@ -89,7 +89,7 @@ export default function getInvolved() {
             
             
 
-        </form>
+        </form> */}
 
 
         <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
