@@ -19,7 +19,7 @@ export default function navbar() {
           <a class="nav-link active" aria-current="page" href="/bhoomiseva">HOME</a>
         </li>
         <li class="nav-item dropdown">
-          <a class="nav-link" href="#!" id="navbarDarkDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+          <a class="nav-link" id="navbarDarkDropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
             PROJECTS
           </a>
           <ul class="dropdown-menu dropdown-menu-end animate slideIn" aria-labelledby="navbarDarkDropdownMenuLink">

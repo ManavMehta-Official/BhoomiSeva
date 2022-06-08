@@ -7,7 +7,12 @@ import {GiSpotedFlower} from 'react-icons/gi';
 import { testimonialName1_1, testimonialImage1_1, testimonialProfession1_1, testimonial1_1, edugalleryImg1, edugalleryImg2, testimonial1_4_a, testimonialImage1_4_a, testimonialName1_4_a, testimonialProfession1_4_a, testimonial1_4_b, testimonialProfession1_4_b, testimonialName1_4_b, testimonialImage1_4_b } from '../../../educationManager';
 import divider from '../../../images/divider.svg';
 import SectionSupport from '../../sectionSupport/sectionSupport';
-import sanjana from '../../../images/education/sanjana.jpeg'
+import sanjana from '../../../images/education/sanjana.jpeg';
+import gallery_2 from '../../../images/education/edu-2.jpeg';
+import gallery_1 from '../../../images/education/edu-1.jpeg';
+import vasanth from '../../../images/education/vasanthvc.jpeg';
+import sreeraksha from '../../../images/education/sreeraksha.jpeg';
+import ram from '../../../images/education/ram.jpeg';
 
 export default function education() {
   return (
@@ -51,7 +56,7 @@ export default function education() {
                 <div style={{"padding": "2% 5%", "margin-top": "5%"}}>
                       <div class="card testimonial" style={{"margin-bottom": "4%"}}>
                               <div class="card-body">
-                                <img src={testimonialImage1_1} alt="logo" width="50" height="50" class="d-inline-block align-text-top" style={{"border-radius": "100rem"}} />
+                                <img src={vasanth} alt="logo" width="50" height="50" class="d-inline-block align-text-top" style={{"border-radius": "100rem"}} />
                                 <h5 class="card-title">{testimonialName1_1}</h5>
                                 <h6 class="card-subtitle mb-2 text-muted">{testimonialProfession1_1}</h6>
                                 <p class="card-text" style={{"font-weight": "400", "lineHeight": "25px"}}>
@@ -112,7 +117,7 @@ export default function education() {
                     <div style={{"padding": "2% 5%", "margin-top": "5%"}}>
                       <div class="card testimonial" style={{"margin-bottom": "4%"}}>
                               <div class="card-body">
-                                <img src={testimonialImage1_4_a} alt="logo" width="50" height="50" class="d-inline-block align-text-top" style={{"border-radius": "100rem"}} />
+                                <img src={sreeraksha} alt="logo" width="50" height="50" class="d-inline-block align-text-top" style={{"border-radius": "100rem"}} />
                                 <h5 class="card-title">{testimonialName1_4_a}</h5>
                                 <h6 class="card-subtitle mb-2 text-muted">{testimonialProfession1_4_a}</h6>
                                 <p class="card-text" style={{"font-weight": "400", "lineHeight": "25px"}}>
@@ -125,7 +130,7 @@ export default function education() {
                     <div style={{"padding": "2% 5%", "margin-top": "5%"}}>
                       <div class="card testimonial" style={{"margin-bottom": "4%"}}>
                               <div class="card-body">
-                                <img src={testimonialImage1_4_b} alt="logo" width="50" height="50" class="d-inline-block align-text-top" style={{"border-radius": "100rem"}} />
+                                <img src={ram} alt="logo" width="50" height="50" class="d-inline-block align-text-top" style={{"border-radius": "100rem"}} />
                                 <h5 class="card-title">{testimonialName1_4_b}</h5>
                                 <h6 class="card-subtitle mb-2 text-muted">{testimonialProfession1_4_b}</h6>
                                 <p class="card-text" style={{"font-weight": "400", "lineHeight": "25px"}}>
@@ -152,8 +157,8 @@ export default function education() {
             <div style={{"boxShadow": "var(--hover)", "padding": "5% 8%"}}>
               <br />
               <br />
-              <img src={edugalleryImg2} alt="children studying" className='img-fluid' style={{"width": "100%", "margin-bottom": "8%"}} />
-              <img src={edugalleryImg1} alt="scholarship" className='img-fluid' style={{"width": "100%", "margin-bottom": "8%"}} />
+              <img src={gallery_2} alt="children studying" className='img-fluid' style={{"width": "100%", "margin-bottom": "8%"}} />
+              <img src={gallery_1} alt="scholarship" className='img-fluid' style={{"width": "100%", "margin-bottom": "8%"}} />
 
             </div>
           </div>

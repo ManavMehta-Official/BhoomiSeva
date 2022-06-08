@@ -18,6 +18,10 @@ import SectionSupport from '../../sectionSupport/sectionSupport';
 import { email } from '../../../App';
 import scholarship from '../../../images/education/edu-1.jpeg';
 import event from '../../../images/event.jpg';
+import recentevent_1 from '../../../images/recent-events/scholarship.jpg';
+import recentevent_2 from '../../../images/recent-events/mealsponsor.jpg';
+import event_1 from '../../../images/events/farmerTraining.jpeg';
+import event_2 from '../../../images/events/farmer.jpeg';
 
 export default function home() {
   return (
@@ -153,7 +157,7 @@ export default function home() {
 
                 <div class="col-sm-4">
                     <div class="card">
-                        <img src={recentEvent_2_image} class="card-img-top" alt="scholarship" />
+                        <img src={recentevent_1} class="card-img-top" alt="scholarship" />
                         <div class="card-body">
 
                           <div>
@@ -173,7 +177,7 @@ export default function home() {
 
                 <div class="col-sm-4">
                     <div class="card">
-                        <img src={recentEvent_3_image} class="card-img-top" alt="meal sponsor" />
+                        <img src={recentevent_2} class="card-img-top" alt="meal sponsor" />
                         <div class="card-body">
 
                           <div>
@@ -202,7 +206,7 @@ export default function home() {
             <div class="row" style={{"padding": "2% 5%"}}>
                 <div class='col-sm-4'>
                   <div class="card">
-                        <img src={event_1_image} class="card-img-top" alt="farmers training" />
+                        <img src={event_1} class="card-img-top" alt="farmers training" />
                         <div class="card-body">
                           <h5 class="card-title">{event_1_title}</h5>
                           <h5 class='location'><FontAwesomeIcon icon={faMapMarkerAlt} /> {event_1_location}</h5>
@@ -214,7 +218,7 @@ export default function home() {
 
                 <div class='col-sm-4'>
                     <div class="card">
-                        <img src={event_2_image} class="card-img-top" alt="farmers training" />
+                        <img src={event_2} class="card-img-top" alt="farmers training" />
                         <div class="card-body">
                           <h5 class="card-title">{event_2_title}</h5>
                           <h5 class='location'><FontAwesomeIcon icon={faMapMarkerAlt} /> {event_2_location}</h5>

@@ -7,6 +7,11 @@ import { farmerTrainingImage, personTestimonialImageCowDonation, personTestimoni
 import divider from '../../../images/divider.svg';
 import {GiSpotedFlower} from 'react-icons/gi';
 import SectionSupport from '../../sectionSupport/sectionSupport';
+import gallery_1 from '../../../images/environment/galleryCow1.jpeg';
+import gallery_2 from '../../../images/environment/galleryCow2.jpeg';
+import farmer from '../../../images/environment/farmerTraining.jpeg';
+import sunitha from '../../../images/environment/sunitha.jpeg';
+
 
 export default function environment() {
   return (
@@ -64,7 +69,7 @@ export default function environment() {
                   <ul><li>Share videos and information from other model farmers who have been successful in doing this, and how their life has transformed after the switch</li></ul><br />
 
 
-                    <img src={farmerTrainingImage} alt="farmer training" className='img-fluid phone-img' style={{"width": "60%", "margin-left": "5%"}} />
+                    <img src={farmer} alt="farmer training" className='img-fluid phone-img' style={{"width": "60%", "margin-left": "5%"}} />
 
                 </h1>
 
@@ -80,7 +85,7 @@ export default function environment() {
                     <div style={{"padding": "2% 5%"}} className="testimonial-media">
                       <div class="card testimonial" style={{"margin-bottom": "4%"}}>
                               <div class="card-body">
-                                <img src={personTestimonialImageCowDonation} alt="logo" width="50" height="50" class="d-inline-block align-text-top" style={{"border-radius": "100rem"}} />
+                                <img src={sunitha} alt="logo" width="50" height="50" class="d-inline-block align-text-top" style={{"border-radius": "100rem"}} />
                                 <h5 class="card-title">{personTestimonialNameCowDonation}</h5>
                                 <h6 class="card-subtitle mb-2 text-muted">{personTestimonialProfessionCowDonation}</h6>
                                 <p class="card-text" style={{"font-weight": "400", "lineHeight": "25px"}}>
@@ -111,8 +116,8 @@ export default function environment() {
             <div style={{"boxShadow": "var(--hover)", "padding": "5% 8%"}}>
               <br />
               <br />
-              <img src={envgalleryImg1} alt="cow donation" className='img-fluid' style={{"width": "100%", "margin-bottom": "8%"}} />
-              <img src={envgalleryImg2} alt="cow donation" className='img-fluid' style={{"width": "100%", "margin-bottom": "8%"}} />
+              <img src={gallery_1} alt="cow donation" className='img-fluid' style={{"width": "100%", "margin-bottom": "8%"}} />
+              <img src={gallery_2} alt="cow donation" className='img-fluid' style={{"width": "100%", "margin-bottom": "8%"}} />
 
             </div>
           </div>
