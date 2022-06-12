@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/bhoomiseva/static/css/main.f8cc0621.css",
-    "main.js": "/bhoomiseva/static/js/main.684c195c.js",
+    "main.js": "/bhoomiseva/static/js/main.ad147e97.js",
     "static/js/787.da29499f.chunk.js": "/bhoomiseva/static/js/787.da29499f.chunk.js",
     "static/media/extendBG.png": "/bhoomiseva/static/media/extendBG.aad78b4d94215cf0d1fa.png",
     "static/media/orphanage.jpeg": "/bhoomiseva/static/media/orphanage.fbf42b768527af8300cf.jpeg",
@@ -44,11 +44,11 @@
     "static/media/divider.svg": "/bhoomiseva/static/media/divider.d5a1ad32e1d0480363aa65bc5e32ad84.svg",
     "index.html": "/bhoomiseva/index.html",
     "main.f8cc0621.css.map": "/bhoomiseva/static/css/main.f8cc0621.css.map",
-    "main.684c195c.js.map": "/bhoomiseva/static/js/main.684c195c.js.map",
+    "main.ad147e97.js.map": "/bhoomiseva/static/js/main.ad147e97.js.map",
     "787.da29499f.chunk.js.map": "/bhoomiseva/static/js/787.da29499f.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.f8cc0621.css",
-    "static/js/main.684c195c.js"
+    "static/js/main.ad147e97.js"
   ]
 }
