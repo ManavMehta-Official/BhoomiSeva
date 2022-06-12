@@ -17,7 +17,7 @@ export default function support() {
         <p>Join our whatsapp group or support us on our facebook page.</p> <br />
 
         <div className='mx-auto text-center'>
-        <Button variant="contained" size="large" className="whatsappBtn" onClick={event =>  window.location.href='https://chat.whatsapp.com/JvzZ6pc6Gzz5Vo00B3qlRF'} target="_blank" disableElevation>
+        <Button variant="contained" size="large" className="whatsappBtn" onClick={event =>  window.location.href='https://chat.whatsapp.com/FxSagnASPAy1qTwoQfioIm'} target="_blank" disableElevation>
           <FontAwesomeIcon icon={faWhatsapp} size="lg" /> &nbsp; Bhoomi Seva Whatsapp
         </Button>
           <br />

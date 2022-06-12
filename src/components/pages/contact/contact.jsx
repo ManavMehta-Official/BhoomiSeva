@@ -122,7 +122,7 @@ export default function contact() {
                 <div className='contact-detail-box' style={{"padding-right": "0%", "padding-left": "4%", "padding": "5%"}}>
                 <br /><br />
                   <div className='mx-auto text-center'>
-                  <Button variant="contained" size="large" className="whatsappBtn" onClick={event =>  window.location.href='https://chat.whatsapp.com/JvzZ6pc6Gzz5Vo00B3qlRF'} disableElevation>
+                  <Button variant="contained" size="large" className="whatsappBtn" onClick={event =>  window.location.href='https://chat.whatsapp.com/FxSagnASPAy1qTwoQfioIm'} disableElevation>
                     <FontAwesomeIcon icon={faWhatsapp} size="lg" /> &nbsp; Bhoomi Seva Whatsapp
                   </Button>
                     <br />

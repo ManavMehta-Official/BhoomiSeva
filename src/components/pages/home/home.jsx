@@ -247,7 +247,7 @@ export default function home() {
         <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable modal-lg">
           <div class="modal-content">
             <div class="modal-header">
-              <h4 class="modal-title" id="exampleModalLabel">{event_1_title}</h4>
+              <h4 class="modal-title" id="exampleModalLabel">Farmers’ training in natural / organic farming</h4>
               <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body">
