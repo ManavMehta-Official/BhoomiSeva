@@ -41,7 +41,7 @@ export default function getInvolved() {
             <h1 style={{"fontFamily": "var(--font-noto)", "color": "var(--wood)"}}>Subscribe to Bhoomi Seva</h1> <br />
             <p class="text-center" style={{"marginBottom": "2%", "fontFamily": "var(--font-mono)", "font-size": "1.2rem", "color": "var(--wood)", "marginTop": "2%"}}>Join our whatsapp group.</p>
             <div className="mx-auto text-center" style={{"marginBottom": "0%"}}>
-                <Button variant="contained" size="large" className="whatsappBtn" onClick={event =>  window.location.href='https://chat.whatsapp.com/JvzZ6pc6Gzz5Vo00B3qlRF'} target="_blank" disableElevation>
+                <Button variant="contained" size="large" className="whatsappBtn" onClick={event =>  window.location.href='https://chat.whatsapp.com/FxSagnASPAy1qTwoQfiolm'} target="_blank" disableElevation>
                 <FontAwesomeIcon icon={faWhatsapp} size="lg" /> &nbsp; Bhoomi Seva Whatsapp
                 </Button>
             </div>
