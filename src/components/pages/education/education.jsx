@@ -13,6 +13,7 @@ import gallery_1 from '../../../images/education/edu-1.jpeg';
 import vasanth from '../../../images/education/vasanthvc.jpeg';
 import sreeraksha from '../../../images/education/sreeraksha.jpeg';
 import ram from '../../../images/education/ram.jpeg';
+import jnv from '../../../images/education/jnvcoaching.jpeg';
 
 export default function education() {
   return (
@@ -96,16 +97,7 @@ export default function education() {
 
                 </h1>
 
-                <h3 class="project-section-title" style={{"font-size": "2rem !important", "color": "black !important", "margin-top": "5%"}}>Free Online coaching for entrance exam tests for Jawahar Navodaya Vidyalaya admission for 6th grade</h3>
-
-                <h1 class="text-content" style={{"padding": "2% 4%", "text-align": "justify", "font-size": "1.4rem", "margin-top": "4%"}}>
-                    <p className='project-section-text'>
-                    Coaching selected students from 5th grade for the Jawahar Navodaya Vidyalaya 6th grade admission. Planning to start from next academic year.
-                    </p>
-
-
-
-                </h1>
+               
 
                 <h3 class="project-section-title" style={{"font-size": "2rem !important", "color": "black !important", "margin-top": "5%"}}>External Scholarship opportunities guidance for rural merit students</h3>
 
@@ -146,6 +138,17 @@ export default function education() {
 
 
             </div>
+
+        <h3 class="project-section-title" style={{"font-size": "2rem !important", "color": "black !important", "margin-top": "5%"}}>Free Online coaching for entrance exam tests for Jawahar Navodaya Vidyalaya admission for 6th grade</h3>
+
+        <h1 class="text-content" style={{"padding": "2% 4%", "text-align": "justify", "font-size": "1.4rem", "margin-top": "4%"}}>
+                    <p className='project-section-text'>
+                    Coaching selected students from 5th grade for the Jawahar Navodaya Vidyalaya 6th grade admission. Planning to start from next academic year.
+                    </p>
+		              <img src={jnv}/>
+
+
+          </h1>
         </div>
 
         <div className="col-sm-4">
@@ -161,6 +164,7 @@ export default function education() {
               <img src={gallery_1} alt="scholarship" className='img-fluid' style={{"width": "100%", "margin-bottom": "8%"}} />
 
             </div>
+      
           </div>
 
           <Support />
