@@ -1,2 +1,2 @@
 Website for Bhoomiseva (NGO). <br>
-https://bhoomiseva.org
+www.bhoomiseva.org
